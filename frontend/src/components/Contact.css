@@ -1,0 +1,44 @@
+/* src/components/Contact.css */
+
+.contact-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Color de fondo claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Disposición vertical */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacio entre campos */
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%; /* Que ocupe todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #28a745; /* Color de fondo verde */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+}
